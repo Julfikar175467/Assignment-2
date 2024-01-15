@@ -20,10 +20,17 @@
 span{
     color:var(--hadding-color);
 }
+.btn{
+    background-color:var(--btn-bg-color);
+    color:var(--btn-text-color);
+    padding:.8rem 1.4rem;
+    border-radius: 8px;
+    text-transform: capitalize;
+}
 /* ----------------------------basic desing end----------------------- */
 header{
     width: 100%;
-    padding:2rem 15%;
+    padding:2rem 10%;
 }
 .logo{
     display: flex;
@@ -56,11 +63,160 @@ header{
 }
 /* -------------------------------header desing end----------------------- */
 /* -------------------main deisng start---------------- */
+main{
+    width: 100%;
+    padding: 2rem 10%;
+}
+ .banner{
+    height: 50vh;
+    background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.445),rgba(0, 0, 0, 0.425)), url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+ }
+ .banner-text{
+    padding:5% 15%;
+    text-align: center;
+    color:var(--btn-text-color)
+ }
+.banner h1{
+    font-size: 55px;
+    margin-bottom: 2rem;
+}
+.banner-text .col-input{
+    background-color: rgba(255, 255, 255, 0.253);
+    display: flex;
+    padding:1rem 2rem;
+    margin: 2rem 0;
+    justify-content: space-between;
+    align-items: center;
+    gap:5px;
+    border-radius: 10px;
+}
+.col-input select{
+    color: var(--text-color);
+}
+
+.col-input >select,input{
+    width: 100%;
+    padding:.8rem 1.5rem;
+    font-size: 20px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+   
+}
+/* -------------------------banner style end------------------------ */
+.about{
+    padding:5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.about .col-text{
+    padding-right:1rem;
+    flex-grow: 1;
+}
+.col-text h1{
+    font-size: 3rem;
+}
+.para-col{
+    margin: 2rem 0;
+    display:inline-block;
+}
+.para-col p,ul li{
+    margin: 1rem 0;
+}
+/* --------------------------about style end--------------------  */
+.subscribe{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2% 0;
+    gap:1rem;
+    
+}
+.form-box{
+    border:1px solid var(--hadding-color);
+    border-radius: 10px;
+    padding:3rem;
+    flex-basis: 45%;
+   
+}
+.form-box h3{
+    font-size: 25px;
+    padding-bottom: 1rem;
+}
+.form-box p{
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+.form-box input{
+    width: 100%;
+    padding:.8rem 1.5rem;
+    font-size: 20px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    background: #F3F3F3;
+    margin: 1rem 0;  
+}
+button{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 20px;
+   
+}
+.img-box{
+    flex-basis: 55%;
+    position: relative;
+   
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+  
+}
+.img-box .text-box-img{
+    background-color: var(--hadding-color);
+    width:300px;
+    height:120px;
+    position:absolute;
+    top:50%;
+    right: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    color:var(--bg-color-3);
+    padding-top: 2rem;
+    transform: rotate(-30deg);
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ---------------------footer desing start-------------------- */
 footer{
     width: 100%;
-    padding:2rem 15%;
+    padding:2rem 10%;
     background-color: var(--footer-bg-color);
 }
 .footer-box{

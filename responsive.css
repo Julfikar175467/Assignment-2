@@ -1,0 +1,97 @@
+@media (max-width:600px){
+
+
+header{
+    padding:2% 4%;
+}
+.nav{
+    flex-direction: column;
+}
+
+/* ----------------banner section--------------  */
+main{
+    padding: 2% 4%;
+}
+.banner{
+    height: 100%;
+    padding: 5% 0;
+}
+.banner-text{
+    padding:2rem 5%;
+}
+.banner h1{
+    font-size: 30px;
+}
+.col-input{
+   flex-direction: column;
+   padding: 2rem 10%;
+}
+.banner .col-input select,input{
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+/* ----------------banner section style end------------  */
+
+.about{
+    flex-direction: column;
+    
+}
+.about .col-img{
+    margin-top: 3rem;
+}
+/* -----------------subscribe style------------------- */
+.subscribe{
+    flex-direction: column;
+    padding: 20% 0;
+}
+.subscribe .img-box img{
+    width: 100%;
+}
+.img-box .text-box-img{
+    position: absolute;
+    top:40%;
+    right: 2rem;
+    width: 250px;
+    height: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+/* -----------------footer---------------- */
+
+
+footer{
+    padding:2% 4%;
+}
+.footer-box .col-1{
+    padding:2rem 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
