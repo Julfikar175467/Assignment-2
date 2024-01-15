@@ -40,6 +40,13 @@ main{
 .about .col-img{
     margin-top: 3rem;
 }
+/* =========================gallary================== */
+.gallary{
+   pading:1rem 0;
+}
+.gallary .img-gallary{
+    display: block;
+}
 /* -----------------subscribe style------------------- */
 .subscribe{
     flex-direction: column;
