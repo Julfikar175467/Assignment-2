@@ -79,7 +79,7 @@ footer{
 }
 .social-icon-box img{
     padding:10px;
-    background-color: var(--text-color);
+    background-color: var(--bg-color-3);
     border-radius: 50%;
 }
 .social-icon-box img:hover{
