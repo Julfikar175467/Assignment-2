@@ -43,6 +43,9 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.nav .menu{
+    display: none;
+}
 .navlist {
  display: flex;
  justify-content: flex-end;
@@ -68,7 +71,6 @@ main{
     padding: 2rem 10%;
 }
  .banner{
-    height: 50vh;
     background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.445),rgba(0, 0, 0, 0.425)), url(Images/Group\ 13\ \(1\)\ \(1\).png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -129,6 +131,10 @@ main{
 .para-col p,ul li{
     margin: 1rem 0;
 }
+.col-img{
+    width: 100%;
+    height: 100%;
+}
 /* --------------------------about style end--------------------  */
 /* ---------------------------gallary start-------------------------- */
 .gallary{
@@ -181,19 +187,6 @@ grid-column: 1/span 5;
  grid-column:6/ span 13;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* --------------------==-----------newsletter desing start------------------- */
 .subscribe{
     display:flex;
@@ -242,7 +235,7 @@ button{
 }
 .img-box img{
     width: 100%;
-    height: 100%;
+    height: auto;
   
 }
 .img-box .text-box-img{

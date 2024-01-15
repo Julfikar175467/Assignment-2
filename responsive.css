@@ -4,8 +4,13 @@
 header{
     padding:2% 4%;
 }
-.nav{
-    flex-direction: column;
+
+.nav .menu{
+    display: block;
+}
+
+.navlist{
+    display:none;
 }
 
 /* ----------------banner section--------------  */
@@ -13,11 +18,11 @@ main{
     padding: 2% 4%;
 }
 .banner{
-    height: 100%;
     padding: 5% 0;
 }
 .banner-text{
     padding:2rem 5%;
+    text-align: justify;
 }
 .banner h1{
     font-size: 30px;
