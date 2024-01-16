@@ -141,7 +141,9 @@ main{
 }
 .col-img{
     width: 100%;
-    height: 100%;
+}
+.col-img img{
+  width: 100%;
 }
 /* --------------------------about style end--------------------  */
 /* ---------------------------gallary start-------------------------- */
@@ -162,11 +164,7 @@ main{
   grid-template-rows: repeat(3,1fr);
   gap:10px;
 }
-/* .gallary .img-gallary .col{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
+
 .gallary .img-gallary img{
     width: 100%;
     height: 100%;
@@ -274,7 +272,7 @@ grid-column: 1/span 5;
  .discount .discount-img-box-1 .col-1{
     background:#ffffffc5;
     width: 500px;
-    height: 400px;
+    height: 450px;
     padding:2rem;
     border-radius: 10px;
     margin-right: 2%;
@@ -284,7 +282,7 @@ grid-column: 1/span 5;
  .discount .discount-img-box-2 .col-1{
     background:#ffffffc5;
     width: 500px;
-    height: 400px;
+    height: 450px;
     padding:2rem;
     border-radius: 10px;
     margin-left: 2%;
@@ -447,25 +445,6 @@ button{
     padding-top: 2rem;
     transform: rotate(-30deg);
 }
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ---------------------footer desing start-------------------- */
 footer{
