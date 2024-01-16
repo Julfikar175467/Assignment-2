@@ -51,14 +51,14 @@ main{
 }
 /* --------------------------bonus design------------- */
 .bonus{
-    height: 60vh;
+    height: 80vh;
 }
 .text-img{
     margin: 8% 2rem;
     padding: 2rem;
 }
 .text-img h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 /* =========================gallary================== */
 .gallary{
@@ -100,7 +100,7 @@ main{
     position: absolute;
     top:40%;
     right: 2rem;
-    width: 250px;
+    width: 200px;
     height: 100px;
 
 }
@@ -119,14 +119,7 @@ main{
 
 
 
-
-
-
-
-
-
 /* -----------------footer---------------- */
-
 
 footer{
     padding:2% 4%;
