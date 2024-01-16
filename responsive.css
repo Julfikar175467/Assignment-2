@@ -1,4 +1,4 @@
-@media (max-width:600px){
+@media (max-width:772px){
 
 
 header{
@@ -43,7 +43,22 @@ main{
     
 }
 .about .col-img{
-    margin-top: 3rem;
+    margin: 3rem auto;
+    
+}
+.about h1{
+    font-size: 2rem;
+}
+/* --------------------------bonus design------------- */
+.bonus{
+    height: 60vh;
+}
+.text-img{
+    margin: 8% 2rem;
+    padding: 2rem;
+}
+.text-img h1{
+    font-size: 2.5rem;
 }
 /* =========================gallary================== */
 .gallary{
@@ -52,6 +67,25 @@ main{
 .gallary .img-gallary{
     display: block;
 }
+/* ---------------------blog desing------------------- */
+.blog .col-box{
+    display: block;
+}
+.blog .col-box .col{
+    margin-top: 2rem;
+    padding:2rem;
+}
+.blog .text-box h1{
+    font-size: 2.5rem;
+}
+/* ===========================discount=================== */
+.discount .discount-img-box-1{
+    justify-content: center;
+}
+.discount .discount-img-box-2{
+    justify-content: center;
+}
+
 /* -----------------subscribe style------------------- */
 .subscribe{
     flex-direction: column;
@@ -68,6 +102,18 @@ main{
     height: 100px;
 
 }
+/* ==================vide0 section =============== */
+ .video{
+    flex-direction: column-reverse;
+ }
+ .video .text-img-box h1{
+    font-size: 2.5rem;
+ }
+   
+ 
+ .video .video-box{
+    margin-top: 5rem;
+ }
 
 
 

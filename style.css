@@ -27,6 +27,14 @@ span{
     border-radius: 8px;
     text-transform: capitalize;
 }
+hr{
+    
+    border:1px solid rgba(128, 128, 128, 0.226);
+    margin-bottom: 2rem;
+}
+span{
+    color: var(--hadding-color);
+}
 /* ----------------------------basic desing end----------------------- */
 header{
     width: 100%;
@@ -186,21 +194,209 @@ grid-column: 1/span 5;
 .gallary .col-img-7{
  grid-column:6/ span 13;
 }
+/* -------------------------blog start-------------------- */
+  .blog{
+   padding:5% 0;
+  }
+  .blog .text-box{
+    text-align: center;
+  }
+  .blog .text-box h1{
+    padding: 2rem;
+    font-size: 3rem;
+  }
+  .blog .col-box{
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(2,1fr);
+    align-items: center;
+    row-gap: 10rem;
+    justify-content: center;
+    padding:3rem 0;
+    
+  }
+  .col-box .col{
+   padding:5rem;
+   box-shadow: 1px 1px 5px var(--nav-text-color);
+   border-radius: 10px;
+  }
+  .col-box .col h2{
+    font-size: 25px;
+    padding: 1rem 0;
+    text-transform: capitalize;
+  }
+  .col-box .col-4{
+    background-color: var(--bg-color-1);
+    grid-column: 4/span 6;
+  }
+  .col-box .col-2{
+   background-color: var(--bg-color-2);
+   grid-column: 1/span 5;
+  }
+  .col-box .col-3{
+  background-color: var(--bg-color-3);
+  grid-column: 8/span 13;
+  }
+  /* ------------------------discount section------------------------------- */
+  .discount{
+    padding:5% 0;
+  }
+  .discount .discount-text{
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .discount .discount-text h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+ .discount .discount-img-box-1{
+    background-image: url(Images/Group\ 40.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 10px;
+ }
+ .discount .discount-img-box-2{
+    background-image: url(Images/Rectangle\ 5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+ }
+ .discount .discount-img-box-1 .col-1{
+    background:#ffffffc5;
+    width: 500px;
+    height: 400px;
+    padding:2rem;
+    border-radius: 10px;
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+  }
+ .discount .discount-img-box-2 .col-1{
+    background:#ffffffc5;
+    width: 500px;
+    height: 400px;
+    padding:2rem;
+    border-radius: 10px;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+  }
+  .discount-img-box-1 .col-1 ul li{
+    display: inline;
+    padding-left: 2rem;
+    color:var(--hadding-color);
+  }
+  .discount-img-box-2 .col-1 ul li{
+    display: inline;
+    padding-left: 2rem;
+    color:var(--hadding-color);
+  }
+  .discount-img-box-1 .col-1 a{
+    margin-top: 2rem;
+    display: inline-block;
+  }
+  .discount-img-box-2 .col-1 a{
+    margin-top: 2rem;
+    display: inline-block;
+  }
+  .discount-img-box-1 .col-1 p{
+    margin: 0;
+  }
+  .discount-img-box-2 .col-1 p{
+    margin: 0;
+  }
+  .discount-img-box-1 .col-1 h2{
+    padding-top: 2rem;
+  }
+  .discount-img-box-2 .col-1 h2{
+    padding-top: 2rem;
+  }
+  .discount .discount-img-box-1 .col-1 .text{
+    margin-top: 3rem ;
+  }
+  .discount .discount-img-box-2 .col-1 .text{
+    margin-top: 3rem ;
+  }
+  /* ==============================video section deisgn================= */
+  .video{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    padding: 5% 0;
+  }
+  .video video{
+    width: 100%;
+    border-radius: 10px;
+  }
+  .video .text-img-box{
+    margin-left: 2%;
+  }
+  .video .text-img-box h1{
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+  }
+  .video .text-img-box a{
+    margin-top: 2rem ;
+    display: inline-block;
+  }
 
+  .video .text-img-box p{
+    padding-bottom: 1rem;
+  }
+  /* ----------------------------bonus part design----------------------- */
+  .bonus{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(3,3,3,0.4)),url(Images/Group\ 40.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--bg-color-3);
+    border-radius: 10px;
+  }
+  .text-img{
+    background-color: #97969b71;
+    margin: 10%;
+    padding: 10%;
+    text-align: center;
+  }
+  .text-img .btn{
+    display:inline-block;
+    margin: 5% 0;
+  }
+  .text-img h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+  }
 /* --------------------==-----------newsletter desing start------------------- */
 .subscribe{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding:2% 0;
+    padding:5% 0;
     gap:1rem;
     
 }
 .form-box{
     border:1px solid var(--hadding-color);
     border-radius: 10px;
-    padding:3rem;
-    flex-basis: 45%;
+    padding:6% 3rem;
+    flex-basis: 40%;
    
 }
 .form-box h3{
