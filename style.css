@@ -432,6 +432,7 @@ button{
     height: auto;
   
 }
+
 .img-box .text-box-img{
     background-color: var(--hadding-color);
     width:300px;
@@ -444,6 +445,10 @@ button{
     color:var(--bg-color-3);
     padding-top: 2rem;
     transform: rotate(-30deg);
+    
+}
+.text-box-img h1{
+   font-size: 1.5rem;
 }
 
 /* ---------------------footer desing start-------------------- */
