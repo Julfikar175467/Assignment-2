@@ -283,7 +283,7 @@ grid-column: 1/span 5;
     background:#ffffffc5;
     width: 500px;
     height: 450px;
-    padding:2rem;
+    padding:1rem;
     border-radius: 10px;
     margin-left: 2%;
     display: flex;
@@ -300,11 +300,11 @@ grid-column: 1/span 5;
     color:var(--hadding-color);
   }
   .discount-img-box-1 .col-1 a{
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: inline-block;
   }
   .discount-img-box-2 .col-1 a{
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: inline-block;
   }
   .discount-img-box-1 .col-1 p{
@@ -314,16 +314,16 @@ grid-column: 1/span 5;
     margin: 0;
   }
   .discount-img-box-1 .col-1 h2{
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
   .discount-img-box-2 .col-1 h2{
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
   .discount .discount-img-box-1 .col-1 .text{
-    margin-top: 3rem ;
+    margin-top: 1rem ;
   }
   .discount .discount-img-box-2 .col-1 .text{
-    margin-top: 3rem ;
+    margin-top: 1rem ;
   }
   /* ==============================video section deisgn================= */
   .video{
